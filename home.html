@@ -10,7 +10,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/favicon.png" height="50px">
@@ -19,31 +19,70 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        </div>
+            
 
-        <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link">Home</a>
-                </li>
-                <li  class="nav-item">
-                    <a  class="nav-link">About Us</a>
-                </li>
-                <li  class="nav-item">
-                    <a  class="nav-link">Services</a>
-                </li>
-                <li  class="nav-item">
-                    <a  class="nav-link">Contact Us</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse " id="mynavbar">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active">Home</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a  class="nav-link">About Us</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a  class="nav-link">Services</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a  class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
 
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="button">Search</button>
-            </form>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
         </div>
     </nav>
 </header>
+
+<section>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+    
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://img.lovepik.com/photo/48013/0576.jpg_wh860.jpg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/wallpaper/d/b/y/122-92-1-poster-no-326-hd-print-house-original-imagmt4n7cy6z7rh.jpeg?q=90&crop=false" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/kyhlfgw0/wallpaper/b/s/h/92-61-1-wnp-3-hd-print-house-original-imagapjhtdytqdqg.jpeg?q=90&crop=false" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+    
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+<section>
+    
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
