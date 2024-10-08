@@ -11,3 +11,9 @@
     margin-top: 4rem;
     width: 200px;
 }
+
+.module {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
