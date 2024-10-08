@@ -1,0 +1,13 @@
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+   flex-direction: column;
+   /* padding: 4rem 0; */
+    
+}
+.button {
+    margin-top: 4rem;
+    width: 200px;
+}
