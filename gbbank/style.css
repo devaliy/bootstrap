@@ -67,4 +67,16 @@
 .contact{
     background-color:  #DFEDF647;
     padding: 5rem;
+    width: 60%;
+   
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.form-group {
+    margin-top: 1.5rem;
+}
+button {
+    margin-top: 1.5rem;
+    width: 100%;
 }
